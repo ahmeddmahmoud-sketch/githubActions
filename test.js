@@ -1,3 +1,8 @@
-console.log("Starting Tests...");
-setTimeout(() => console.log("waiting 3 seconds"), 3000);
-console.log("Starting Tests...");
+const assert = require('node:assert/strict')
+
+
+const result = 2 + 3
+
+
+assert.equal(result, 5)
+console.log('Test passed!')
